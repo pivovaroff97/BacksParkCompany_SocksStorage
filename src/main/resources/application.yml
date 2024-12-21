@@ -1,0 +1,13 @@
+spring:
+  application:
+    name: BacksParkCompany_Socks
+
+  datasource:
+    url: jdbc:postgresql://localhost:5433/postgres
+    username: devuser
+    password: devpassword
+  jpa:
+    show-sql: true
+    hibernate:
+      ddl-auto: create-drop
+
